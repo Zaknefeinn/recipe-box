@@ -1,0 +1,93 @@
+body{
+    background-color: #F0EAD6;
+}
+li {
+    list-style:none;
+}
+ul{
+    margin-left:0;
+    padding-left:0;
+}
+.container{
+    width: 45%;
+    margin:  40px auto;
+
+}
+.well{
+    padding: 20px 0;
+    margin: 20px 0;
+    background-color: #D6F0EA;
+    border-radius: 4px;
+    border: 2px solid #96CABE;
+}
+
+.item{
+    background-color: #96A2CA;
+    color:#FFFFFF;
+    line-height: 1.2em;
+    margin: 8px 10px 0 10px;
+    padding: 10px 15px;
+    border-radius: 2px;
+    border: 2px solid #6170A4;
+    cursor: pointer;
+}
+.popup-content{
+    height:350px;
+    width: 35%!important;
+}
+.popup-container{
+    height:100%;
+    width: 100%;
+}
+.add-recipe{
+    margin: 0px auto;
+}
+.ingred-item{
+    border-bottom: 2px solid black;
+}
+.ingred-item:first-child{
+   border-top: 2px solid black; 
+}
+.ingredientContainer{
+    display:none;
+    background-color:white;
+    padding: 0 25px 5px 25px;
+    border: 2px solid #6170A4;
+    border-top:none;
+    margin: 0 10px
+}
+.ingredientContainer h4{
+    padding-top: 15px;
+}
+.btn-edit,
+.btn-delete,
+.btn-submit{
+    margin: 10px;
+}
+.title{
+    width:100%;
+    background-color:#96A2CA;
+    padding:5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.popup-content{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding:0!important;
+}
+form h4{
+    margin: 10px 20px;
+}
+form input{
+    width:95% !important;
+    margin: 10px auto;
+}
+.title h3,
+h2{
+    text-align: center;
+}
+
+.show{
+    display:block;
+}
